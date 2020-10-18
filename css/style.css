@@ -797,6 +797,12 @@ body {
 
 .footer__content {
   padding: 40px 0px 45px;
+  max-width: 630px;
+  width: 100%;
+}
+
+.footer__content iframe{
+  width: 100%;
 }
 
 
@@ -822,6 +828,10 @@ body {
 #modal input[type="submit"]{
   background-color: #ffc222;
   border: none;
+}
+
+.icon-bars {
+  display: none;
 }
 
 
